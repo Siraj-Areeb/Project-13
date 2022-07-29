@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Montserrat';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: -8px;
+}
+
+header{
+    display:flex ;
+    flex-direction: column;
+    background: linear-gradient(to bottom,#6F00ED,#8b3ccc);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: #fff;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-list{
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: color .5s ease-in;
+}
+
+nav>button{
+    width: 170px;
+    height: 45px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #12B0E8;
+    color: #fff;
+    border: none;
+    transition: color .5s ease-in;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.section1-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1-left>h1{
+    font-family: 'Montserrat';
+    font-size: 55px;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 100px;
+}
+
+.section1-left>p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #fff;
+    font-weight: 200;
+    padding-left: 100px;
+    width: 400px;
+    line-height: 22px;
+}
+
+.section1>img{
+    width: 650px;
+    position: relative;
+    left: 100px;
+    transition: color .5s ease-in;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section2-right{
+    width: 500px;
+}
+
+.section2-right>h2{
+    font-family:'Montserrat';
+    font-size: 35px;
+    font-weight: 700;
+    color: #1f1f1f;
+    margin-bottom: 70px;
+}
+
+.section2-right>h3{
+    font-family:'Montserrat';
+    font-size: 25px;
+    font-weight: 700;
+    color: #1f1f1f;
+    position: relative;
+    left: 50px;
+}
+
+.section2-right>p{
+    font-family:'Montserrat';
+    font-size: 15px;
+    font-weight: 600;
+    color: #1f1f1f;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    width: 360px;
+    margin-bottom: -50px;
+}
+
+.section2-right>img{
+    width: 23px;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+}
+
+.section3>h1{
+    font-family:'Montserrat';
+    font-size: 35px;
+    font-weight: 700;
+    color: #1f1f1f;
+    align-self: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section3-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #8b3ccc;
+    position: relative;
+    bottom: 30px;
+    z-index: -1;
+}
+
+.c1{
+    background-color:bisque;
+}
+
+.c2{
+    background-color: aquamarine;
+}
+
+.c3{
+    background-color: darkgrey;
+}
+
+.c4{
+    background-color: burlywood;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px 30px;
+}
+
+.card>img{
+    width: 60px;
+    position: relative;
+    top: 50px;
+}
+
+.card1{
+    margin-right: -200px;
+}
+
+.card2{
+    margin-right: -100px;
+}
+
+.card3{
+    margin-left: -100px;
+}
+
+.card4{
+    margin-left: -200px;
+}
+
+.card>div>h3{
+    font-family:'Montserrat';
+    font-size: 25px;
+    font-weight: 700;
+    color: #1f1f1f;
+}
+
+.card>div>p{
+    font-family:'Montserrat';
+    font-size: 15px;
+    font-weight: 600;
+    color: #1f1f1f;
+    position: relative;
+    width: 150px;
+    text-align: center;
+}
+
+.down{
+    border-radius: 30px;
+}
+
+.nav-list:hover{
+    color: #3a3a3a;
+    font-weight: 600;
+}
+
+nav>button:hover{
+    border: 1px;
+    border-color: #fff;
+    color: #12B0E8;
+    background: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
