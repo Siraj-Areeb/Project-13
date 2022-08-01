@@ -55,12 +55,14 @@ nav>button{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     padding-bottom: 70px;
 }
 
 .section1-left{
     display: flex;
     flex-direction: column;
+    /* margin-left: -200px; */
 }
 
 .section1-left>h1{
@@ -85,7 +87,6 @@ nav>button{
     width: 650px;
     position: relative;
     left: 100px;
-    transition: color .5s ease-in;
 }
 
 .section2{
