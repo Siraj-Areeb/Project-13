@@ -85,8 +85,8 @@ nav>button{
 
 .section1>img{
     width: 650px;
-    position: relative;
-    left: 100px;
+    /* position: relative;
+    left: 100px; */
 }
 
 .section2{
