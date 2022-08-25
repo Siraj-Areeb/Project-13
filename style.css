@@ -54,6 +54,7 @@ nav>button{
 .section1{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     padding-bottom: 70px;
@@ -92,6 +93,7 @@ nav>button{
 .section2{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: space-around;
     padding-top: 50px;
@@ -156,6 +158,7 @@ nav>button{
 .section3-cards{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 50px;
 }
@@ -250,4 +253,50 @@ nav>button:hover{
     background: #fff;
     font-weight: 600;
     font-size: 18px;
+}
+
+@media only screen and (max-width: 600px){
+    .nav-menu{
+        display: none;
+    }
+
+    .section1-left{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section1-left>h1{
+        font-size: 50px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .section1-left>p{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .section2-right>h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    /* .section3-cards{
+       flex-direction: column;  
+       align-items: center;
+    } */
+
+    .card{
+        width: 30vw;
+    }
+    
+    .card1,
+    .card2,
+    .card3,
+    .card4{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
